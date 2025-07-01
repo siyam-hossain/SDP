@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        input{
+            padding: 10px;
+            width: 40%;
+        }
+
+        .user-container{
+            display: flex;
+            justify-content: center;
+        }
+        .user{
+            padding: 20px;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <!-- we get input value here -->
+    <input id="inputField" type="text" placeholder="Type Anything">
+    <button id="maintain" onclick="handleSearch()">Search</button>
+
+    <div id="comment-container">
+
+    </div>
+
+    <section class="user-container" id="userData-Container">
+
+    </section>
+
+    <script src="08_api_jsonplaceholder.js"></script>
+</body>
+</html>
